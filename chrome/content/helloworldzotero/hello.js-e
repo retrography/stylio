@@ -33,7 +33,7 @@ Zotero.HelloWorldZotero = {
 			}
 
 			var params = {
-				"access_token": "YOUR_API_KEY",
+				"access_token": "d7994fc8d4cff2c90aec60f62f86f302",
 				"references": data
 			}
 			httpRequest.onreadystatechange = alertContents;

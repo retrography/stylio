@@ -28,3 +28,6 @@ Temporary Items
 
 # packaged FireFox plugins
 *.xpi
+
+# API Key
+api.key
