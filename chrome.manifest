@@ -1,5 +1,5 @@
-content	helloworldzotero				chrome/content/helloworldzotero/
-locale	helloworldzotero	en-US		chrome/locale/en-US/helloworldzotero/
-skin	helloworldzotero	default		chrome/skin/default/helloworldzotero/
+content	styliozotero				chrome/content/styliozotero/
+locale	styliozotero	en-US		chrome/locale/en-US/styliozotero/
+skin	styliozotero	default		chrome/skin/default/styliozotero/
 
-overlay	chrome://zotero/content/zoteroPane.xul	chrome://helloworldzotero/content/overlay.xul
+overlay	chrome://zotero/content/zoteroPane.xul	chrome://styliozotero/content/overlay.xul

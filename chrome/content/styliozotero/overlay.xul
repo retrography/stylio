@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://styliozotero/skin/overlay.css" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://styliozotero/locale/stylio.dtd">
+
+<overlay id="styliozotero-overlay"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<stringbundleset id="stringbundleset">
+		<stringbundle id="stylio-zotero-strings"
+			src="chrome://styliozotero/locale/stylio.properties"/>
+	</stringbundleset>
+
+	<menupopup id="zotero-tb-actions-popup">
+		<!-- Make sure the menu separator for utilities is visible -->
+		<menuseparator id="zotero-tb-actions-plugins-separator" hidden="false"/>
+		<menuitem insertbefore="zotero-tb-actions-separator" label="&styliozotero.name;"
+			oncommand="Zotero.StylioZotero.insertStylio()"/>
+	</menupopup>
+
+	<!-- Include the main extension logic -->
+	<script src="chrome://zotero/content/include.js"/>
+	<script src="chrome://styliozotero/content/include.js" type="application/javascript;version=1.8"/>
+</overlay>
